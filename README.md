@@ -1,4 +1,4 @@
-Light-Term Encryption NDV (Non Developer Version)
+## Light-Term Encryption NDV (Non Developer Version)
 An advanced .NET Class Library for hardware-bound encryption. This engine doesn't just encrypt your data with a password; it "locks" the data to the physical components of your computer.
 
 ## Core Security Features
