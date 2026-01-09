@@ -8,7 +8,7 @@ Military Grade Encryption: Utilizes AES-256 (Advanced Encryption Standard) in CB
 
 Brute-Force Protection: Implements PBKDF2 Key Stretching with 50,000 SHA-256 iterations.
 
-Obfuscation Layers: Custom transformation chain: AES ➔ Hex ➔ Math Increment (+1) ➔ Binary String ➔ GZip Compression.
+Obfuscation Layers: Custom transformation chain
 
 ## CRITICAL WARNINGS (READ BEFORE USE)
 - CAUTION -
