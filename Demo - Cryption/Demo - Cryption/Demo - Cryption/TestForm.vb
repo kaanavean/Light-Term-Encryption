@@ -12,9 +12,9 @@ Public Class TestForm
 
             ' Converting to Base64 for easy display/storage
             Input_Box.Text = Convert.ToBase64String(encryptedData)
-            MessageBox.Show("Erfolgreich verschlüsselt!", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            MessageBox.Show("Encrypted successfully!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
         Catch ex As Exception
-            MessageBox.Show("Fehler beim Verschlüsseln: " & ex.Message)
+            MessageBox.Show("Error while encrypting: " & ex.Message)
         End Try
     End Sub
 

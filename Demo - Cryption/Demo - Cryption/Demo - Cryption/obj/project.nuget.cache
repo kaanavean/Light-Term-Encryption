@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5T9GBdRnd4c=",
+  "dgSpecHash": "C8DGSw4Wgo8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\deniz\\Documents\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption.vbproj",
+  "projectFilePath": "C:\\Users\\deniz\\Documents\\GitHub\\Light-Term-Encryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\deniz\\.nuget\\packages\\system.codedom\\10.0.1\\system.codedom.10.0.1.nupkg.sha512",
     "C:\\Users\\deniz\\.nuget\\packages\\system.management\\10.0.1\\system.management.10.0.1.nupkg.sha512"

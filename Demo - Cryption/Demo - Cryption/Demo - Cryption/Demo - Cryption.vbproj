@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <Reference Include="Light-Term Encryption">
-      <HintPath>..\..\..\Light-Term Encryption\Light-Term Encryption\bin\Debug\net8.0-windows\Light-Term Encryption.dll</HintPath>
+      <HintPath>..\..\..\..\..\Light-Term Encryption\Light-Term Encryption\bin\Debug\net8.0-windows\Light-Term Encryption.dll</HintPath>
     </Reference>
   </ItemGroup>
 

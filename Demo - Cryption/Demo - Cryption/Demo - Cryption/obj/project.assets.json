@@ -119,11 +119,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\deniz\\Documents\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption.vbproj",
+      "projectUniqueName": "C:\\Users\\deniz\\Documents\\GitHub\\Light-Term-Encryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption.vbproj",
       "projectName": "Demo - Cryption",
-      "projectPath": "C:\\Users\\deniz\\Documents\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption.vbproj",
+      "projectPath": "C:\\Users\\deniz\\Documents\\GitHub\\Light-Term-Encryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption.vbproj",
       "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\deniz\\Documents\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption\\obj\\",
+      "outputPath": "C:\\Users\\deniz\\Documents\\GitHub\\Light-Term-Encryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config",
