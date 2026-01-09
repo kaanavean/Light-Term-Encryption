@@ -8,12 +8,10 @@ Brute-Force Protection: Implements PBKDF2 Key Stretching with 50,000 SHA-256 ite
 Obfuscation Layers: Custom transformation chain: AES ➔ Hex ➔ Math Increment (+1) ➔ Binary String ➔ GZip Compression.
 
 ## CRITICAL WARNINGS (READ BEFORE USE)
-[!CAUTION]
+- CAUTION -
 
 1. HARDWARE LOCK-IN
 This library creates an encryption key tied to your specific hardware. Result: A file encrypted on "PC A" CANNOT be decrypted on "PC B", even with the correct password. If you replace your CPU or Motherboard, your encrypted data will be permanently inaccessible.
-
-[!WARNING]
 
 2. NO RECOVERY POSSIBLE
 There is no "Password Recovery" or "Backdoor". If the password is lost or the hardware identity changes, the data is mathematically impossible to recover. Always keep a plaintext backup of vital information in a separate secure location.
@@ -22,7 +20,7 @@ There is no "Password Recovery" or "Backdoor". If the password is lost or the ha
 Prerequisites
 .NET Framework 4.8+ or .NET 6.0/8.0+ (Windows only)
 
-NuGet Package: System.Management
+NuGet Package: System.Management (Will soon merge with Fintou Resources)
 
 ## Setup
 Download the Light-Term Engine.dll.
