@@ -1,10 +1,13 @@
 ## Light-Term Encryption NDV (Non Developer Version)
-An advanced .NET Class Library for hardware-bound encryption. This engine doesn't just encrypt your data with a password; it "locks" the data to the physical components of your computer.
+An advanced .NET Class Library for hardware-bound encryption. This engine doesn't just encrypt your data with a password, it "locks" the data to the physical components of your computer.
 
 ## Core Security Features
 Hardware-DNA Fusion: Combines CPU ProcessorID and Network MAC Address to create a unique hardware fingerprint.
+
 Military Grade Encryption: Utilizes AES-256 (Advanced Encryption Standard) in CBC mode.
+
 Brute-Force Protection: Implements PBKDF2 Key Stretching with 50,000 SHA-256 iterations.
+
 Obfuscation Layers: Custom transformation chain: AES ➔ Hex ➔ Math Increment (+1) ➔ Binary String ➔ GZip Compression.
 
 ## CRITICAL WARNINGS (READ BEFORE USE)
@@ -24,8 +27,11 @@ NuGet Package: System.Management (Will soon merge with Fintou Resources)
 
 ## Setup
 Download the Light-Term Engine.dll.
+
 Add the DLL as a Reference in your Visual Studio project.
+
 Install the System.Management package via NuGet.
+
 Ensure the Windows Management Instrumentation (WMI) service is running on the host machine.
 
 ## License
