@@ -52,7 +52,7 @@ Public Class TestForm
     Private Sub Open_Button_Click(sender As Object, e As EventArgs) Handles Open_Button.Click
         Dim ofd As New OpenFileDialog With {
             .Filter = "Crypt Files (*.data)|*.data",
-            .Title = "OPen encrypted data"
+            .Title = "Open encrypted data"
         }
         If ofd.ShowDialog() = DialogResult.OK Then
             Try

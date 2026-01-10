@@ -31,15 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Demo - Cryption",
+              "Title": "Demo - Cryption.vbproj",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\Light-Term-Encryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption.vbproj",
               "RelativeDocumentMoniker": "Demo - Cryption\\Demo - Cryption.vbproj",
               "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\Light-Term-Encryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption.vbproj",
               "RelativeToolTip": "Demo - Cryption\\Demo - Cryption.vbproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
-              "WhenOpened": "2026-01-09T22:49:51.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T22:49:51.995Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "Demo - Cryption\\My Project\\Application.Designer.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-09T22:35:23.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T22:35:23.592Z"
             },
             {
               "$type": "Document",
@@ -62,7 +60,7 @@
               "RelativeDocumentMoniker": "Demo - Cryption\\TestForm.vb",
               "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\Light-Term-Encryption\\Demo - Cryption\\Demo - Cryption\\Demo - Cryption\\TestForm.vb",
               "RelativeToolTip": "Demo - Cryption\\TestForm.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCsAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-01-09T22:17:23.718Z",
               "EditorCaption": ""
