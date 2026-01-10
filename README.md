@@ -1,6 +1,10 @@
 # Light-Term Encryption NDV (Non Developer Version)
 An advanced .NET Class Library for hardware-bound encryption. This engine doesn't just encrypt your data with a password, it "locks" the data to the physical components of your computer.
 
+The data contains a file called "Decryptme.data". I ask anyone who enjoys this sort of thing to try decrypting it and send me an email to my profile with the contents of the file.
+
+Warning: This is not possible.
+
 ## Core Security Features
 Hardware-DNA Fusion: Combines CPU ProcessorID and Network MAC Address to create a unique hardware fingerprint.
 
@@ -27,12 +31,15 @@ Prerequisites
 
 NuGet Package: System.Management (Will soon merge with Fintou Resources)
 
+The program must be run as administrator. Otherwise, the system will repeatedly fail during decryption. I will fix this so that the program will only start if it has administrator privileges.
+
 ## Setup
 Download the Light-Term Engine.dll.
 
 Add the DLL as a Reference in your Visual Studio project.
 
 Install the System.Management package via NuGet.
+
 
 Ensure the Windows Management Instrumentation (WMI) service is running on the host machine.
 
