@@ -1,5 +1,6 @@
 ﻿Imports System.IO
 Imports Light_Term_Encryption
+Imports System.Security.Principal
 Public Class TestForm
 
     Private ReadOnly engine As New LTE
@@ -63,5 +64,30 @@ Public Class TestForm
                 MessageBox.Show("Error occurred while loading: " & ex.Message)
             End Try
         End If
+    End Sub
+
+    Private Sub TestForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' Administrator check
+        Dim ident = WindowsIdentity.GetCurrent()
+        Dim principal = New WindowsPrincipal(ident)
+        Dim isAdmin As Boolean = principal.IsInRole(WindowsBuiltInRole.Administrator)
+        Dim isUser As Boolean = principal.IsInRole(WindowsBuiltInRole.User)
+
+        If isAdmin Then
+            ' Administrator level
+            MessageBox.Show("The application runs at administrator level", "Administrator Check", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        ElseIf isUser Then
+            ' User level
+            If MessageBox.Show("Standard User level. " & vbCrLf & "The system can only be used by an administrator." & vbCrLf & "The Application will now quit.", "Administrator Check", MessageBoxButtons.OK, MessageBoxIcon.Warning) = DialogResult.OK Or DialogResult.None Then
+                Application.Exit()
+            End If
+        Else
+            ' Illegal level
+            Application.Exit()
+        End If
+
+        ' Shows if hardware binding is supported on this system
+        Dim status = engine.CheckHardwareAccessibility()
+        MessageBox.Show(vbCrLf & status, "Device Compatibility Check", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 End Class
