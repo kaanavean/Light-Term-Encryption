@@ -31,7 +31,7 @@ Prerequisites
 
 NuGet Package: System.Management (Will soon merge with Fintou Resources)
 
-The program must be run as administrator. Otherwise, the system will repeatedly fail during decryption. I will fix this so that the program will only start if it has administrator privileges.
+The program must be run as administrator. Otherwise, the system will repeatedly fail during decryption. The program will not start without administrator privileges.
 
 ## Setup
 Download the Light-Term Engine.dll.
@@ -40,8 +40,14 @@ Add the DLL as a Reference in your Visual Studio project.
 
 Install the System.Management package via NuGet.
 
-
 Ensure the Windows Management Instrumentation (WMI) service is running on the host machine.
+
+## Added
+The demo application is now able to detect the system state in which it is starting. If it is started by a normal user, a warning will be displayed, and the program will close after the warning. If the system does not recognize the system state (for example, at NT level), the program will shut down without warning.
+
+Light-Term Encryption now has a status query system where you can see how limited the system is, in order to detect possible misimplementations in time.
+
+A general administrator check is still being designed and implemented.
 
 ## License
 This project is for educational and private use. Use at your own risk. The developer is not responsible for data loss due to hardware failure or forgotten passwords.
