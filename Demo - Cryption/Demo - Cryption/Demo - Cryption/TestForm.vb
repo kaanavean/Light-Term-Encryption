@@ -75,7 +75,7 @@ Public Class TestForm
 
         If isAdmin Then
             ' Administrator level
-            MessageBox.Show("The application runs at administrator level", "Administrator Check", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            MessageBox.Show("The application runs at administrator level.", "Administrator Check", MessageBoxButtons.OK, MessageBoxIcon.Information)
         ElseIf isUser Then
             ' User level
             If MessageBox.Show("Standard User level. " & vbCrLf & "The system can only be used by an administrator." & vbCrLf & "The Application will now quit.", "Administrator Check", MessageBoxButtons.OK, MessageBoxIcon.Warning) = DialogResult.OK Or DialogResult.None Then
